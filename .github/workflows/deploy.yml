@@ -15,5 +15,10 @@ jobs:
           password: ${{ secrets.PWD }}
           port: ${{ secrets.PORT }}
           script: |
+<<<<<<< HEAD
             cd gozar-salor
             git pull git pull origin main
+=======
+            cd /home/ubuntu/gozar-saleor
+            git pull origin main
+>>>>>>> f7430fdaa (lord-a2k/fix-workflow)
