@@ -2,7 +2,7 @@ name: GraphQL Inspector
 
 on:
   push:
-    paths: [ "**.graphql" ]
+    paths: ["**.graphql"]
 
 jobs:
   build:
